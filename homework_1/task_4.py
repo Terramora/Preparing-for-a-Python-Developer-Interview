@@ -60,4 +60,5 @@ def deposit(amount: int, months: int) -> Optional[float]:
         return total
 
 
-print(deposit(1000000, 36))
+if __name__ == '__main__':
+    print(deposit(1000000, 24))
